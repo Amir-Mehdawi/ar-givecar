@@ -17,7 +17,12 @@
     ensure ar-givecar
     ```
 4. Adjust the settings in your `config.lua` file.  
- 
+
+5. add this in server.cfg
+```lua
+add_ace group.admin givecar.admin allow
+add_ace group.admin givecar.god allow
+```
  ---
 
 
@@ -25,6 +30,7 @@
 - 
 [qb-garages](https://github.com/qbcore-framework/qb-garages)  [Free]
 >  **Mandatory:** Requires **qb-garages** .
+
 
 ---
 
